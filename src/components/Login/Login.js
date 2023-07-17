@@ -41,7 +41,8 @@ const Login = (props) => {
   const [passwordState, dispatchPassword] = useReducer(passwordReducer, {
     value: '',
     isValid: null
-  })  
+  })
+  useReducer()
 
   // useEffect(() => {
   //   const timerIndetifier = setTimeout(() => {
